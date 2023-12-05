@@ -49,7 +49,7 @@ function handleResetClick(event) {
     toggleScreen()
     randomNumber = Math.round(Math.random() * 10)
     xAttempts = 1;
-    // console.log(randomNumber)
+    console.log(randomNumber)
 }
 
 function toggleScreen() {
