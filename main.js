@@ -12,7 +12,7 @@ btnReset.addEventListener('click', handleResetClick)
 document.addEventListener('keydown', keydown)
 
 
-// console.log(randomNumber)
+console.log(randomNumber)
 
 
 
@@ -23,6 +23,7 @@ function handleTryClick(event) {
 
     if(inputNumber.value < 0 || inputNumber.value > 10) {
         alert("Escolha um número entre 0 e 10!")
+        inputNumber.value = ""
         return
       }
   
